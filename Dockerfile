@@ -1,7 +1,7 @@
 FROM dockerfile/java:oracle-java8
 MAINTAINER coderfi@gmail.com
 
-ENV AVRO_VERSION 1.7.7
+ENV AVRO_VERSION 1.8.2
 ENV AVRO_TOOLS_JAR /usr/share/java/avro-tools-${AVRO_VERSION}.jar
 
 RUN mkdir -p /share \
